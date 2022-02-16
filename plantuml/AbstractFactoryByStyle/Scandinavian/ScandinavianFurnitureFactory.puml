@@ -1,0 +1,8 @@
+@startuml
+class ScandinavianFurnitureFactory {
+    + CreateCabinet() : IFurniture
+    + CreateChair() : IFurniture
+    + CreateDiningTable() : IFurniture
+}
+IFurnitureFactory <|-- ScandinavianFurnitureFactory
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class DiningTableFactory {
+    + CreateClassic() : IStyles
+    + CreateContemporary() : IStyles
+    + CreateScandinavian() : IStyles
+}
+IStyleFactory <|-- DiningTableFactory
+@enduml

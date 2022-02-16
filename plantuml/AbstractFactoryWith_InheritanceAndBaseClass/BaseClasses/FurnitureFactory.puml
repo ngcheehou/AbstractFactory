@@ -1,0 +1,7 @@
+@startuml
+abstract class FurnitureFactory {
+    + {abstract} CreateCabinet() : Furniture
+    + {abstract} CreateChair() : Furniture
+    + {abstract} CreateDiningTable() : Furniture
+}
+@enduml

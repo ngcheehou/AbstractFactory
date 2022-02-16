@@ -1,0 +1,8 @@
+@startuml
+class CabinetFactory {
+    + CreateClassic() : IStyles
+    + CreateContemporary() : IStyles
+    + CreateScandinavian() : IStyles
+}
+IStyleFactory <|-- CabinetFactory
+@enduml

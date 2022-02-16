@@ -1,0 +1,8 @@
+@startuml
+class ClassicFactory {
+    + <<override>> CreateCabinet() : Furniture
+    + <<override>> CreateChair() : Furniture
+    + <<override>> CreateDiningTable() : Furniture
+}
+FurnitureFactory <|-- ClassicFactory
+@enduml

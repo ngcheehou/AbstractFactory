@@ -1,0 +1,7 @@
+@startuml
+class ScandinavianCabinet {
+    + DesignPhilosophy() : void
+    + BuildMaterials() : void
+}
+IStyles <|-- ScandinavianCabinet
+@enduml

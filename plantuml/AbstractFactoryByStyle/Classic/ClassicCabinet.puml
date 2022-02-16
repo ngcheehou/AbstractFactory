@@ -1,0 +1,7 @@
+@startuml
+class ClassicCabinet {
+    + FurnitureFunction() : void
+    + ShowStyle() : void
+}
+IFurniture <|-- ClassicCabinet
+@enduml

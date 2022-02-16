@@ -1,0 +1,8 @@
+@startuml
+interface IFurniture {
+    FurnitureFunction() : void
+    ShowStyle() : void
+}
+interface Interface1 {
+}
+@enduml

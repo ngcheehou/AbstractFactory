@@ -1,0 +1,7 @@
+@startuml
+class ContemporaryCabinet {
+    + FurnitureFunction() : void
+    + ShowStyle() : void
+}
+IFurniture <|-- ContemporaryCabinet
+@enduml

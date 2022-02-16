@@ -1,0 +1,7 @@
+@startuml
+class ContemporaryChair {
+    + <<override>> FurnitureFunction() : void
+    + <<override>> ShowStyle() : void
+}
+Furniture <|-- ContemporaryChair
+@enduml

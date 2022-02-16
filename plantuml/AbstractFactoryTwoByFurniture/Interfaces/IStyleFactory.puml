@@ -1,0 +1,7 @@
+@startuml
+interface IStyleFactory {
+    CreateClassic() : IStyles
+    CreateContemporary() : IStyles
+    CreateScandinavian() : IStyles
+}
+@enduml

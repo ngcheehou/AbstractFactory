@@ -1,0 +1,6 @@
+@startuml
+interface IStyles {
+    DesignPhilosophy() : void
+    BuildMaterials() : void
+}
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+class ClassicChair {
+    + FurnitureFunction() : void
+    + ShowStyle() : void
+}
+@enduml

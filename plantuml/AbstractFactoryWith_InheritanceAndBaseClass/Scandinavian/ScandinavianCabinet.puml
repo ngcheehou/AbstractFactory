@@ -1,0 +1,7 @@
+@startuml
+class ScandinavianCabinet {
+    + <<override>> FurnitureFunction() : void
+    + <<override>> ShowStyle() : void
+}
+Furniture <|-- ScandinavianCabinet
+@enduml

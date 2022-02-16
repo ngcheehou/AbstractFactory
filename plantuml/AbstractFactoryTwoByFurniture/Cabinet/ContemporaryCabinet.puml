@@ -1,0 +1,7 @@
+@startuml
+class ContemporaryCabinet {
+    + DesignPhilosophy() : void
+    + BuildMaterials() : void
+}
+IStyles <|-- ContemporaryCabinet
+@enduml

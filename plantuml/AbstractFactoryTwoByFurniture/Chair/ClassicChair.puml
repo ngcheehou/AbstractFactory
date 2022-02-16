@@ -1,0 +1,7 @@
+@startuml
+class ClassicChair {
+    + DesignPhilosophy() : void
+    + BuildMaterials() : void
+}
+IStyles <|-- ClassicChair
+@enduml

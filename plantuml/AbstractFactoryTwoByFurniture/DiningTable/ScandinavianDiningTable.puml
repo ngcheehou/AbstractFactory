@@ -1,0 +1,7 @@
+@startuml
+class ScandinavianDiningTable {
+    + DesignPhilosophy() : void
+    + BuildMaterials() : void
+}
+IStyles <|-- ScandinavianDiningTable
+@enduml

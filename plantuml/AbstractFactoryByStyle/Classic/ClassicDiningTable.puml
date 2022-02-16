@@ -1,0 +1,7 @@
+@startuml
+class ClassicDiningTable {
+    + FurnitureFunction() : void
+    + ShowStyle() : void
+}
+IFurniture <|-- ClassicDiningTable
+@enduml

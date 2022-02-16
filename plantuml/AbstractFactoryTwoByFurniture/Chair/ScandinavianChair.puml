@@ -1,0 +1,7 @@
+@startuml
+class ScandinavianChair {
+    + DesignPhilosophy() : void
+    + BuildMaterials() : void
+}
+IStyles <|-- ScandinavianChair
+@enduml

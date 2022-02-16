@@ -1,0 +1,6 @@
+@startuml
+class ContemporaryDiningTable {
+    + FurnitureFunction() : void
+    + ShowStyle() : void
+}
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+abstract class Furniture {
+    + <<virtual>> FurnitureFunction() : void
+    + <<virtual>> ShowStyle() : void
+}
+@enduml

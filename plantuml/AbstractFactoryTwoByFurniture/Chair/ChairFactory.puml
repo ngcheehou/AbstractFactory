@@ -1,0 +1,8 @@
+@startuml
+class ChairFactory {
+    + CreateClassic() : IStyles
+    + CreateContemporary() : IStyles
+    + CreateScandinavian() : IStyles
+}
+IStyleFactory <|-- ChairFactory
+@enduml
